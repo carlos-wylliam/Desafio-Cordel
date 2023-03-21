@@ -2,8 +2,12 @@
  /* font-family: 'Passion One', cursive;
  font-family: 'Sriracha', cursive; */
  *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+ }
+ html, body{
+   min-height: 100vh;
+   background-color: darkgray;
  }
  header{
     background-color: black;
@@ -12,39 +16,59 @@
     padding: 70px;
  }
  header > h1{
+    padding-top: 50px;
+    /* text-transform: uppercase; transformar todas as letras em maisculo */
+    font-variant: small-caps;
+    /* small-caps tudo em maiusculo mas as primeiras letras continuam maior */
     font-family: 'Passion One', cursive;
     font-weight: bold;
-    font-size: 7.5em;
+    font-size: 10vw;
  }
- header > h2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1em;
- }
- h2 > a{
-    text-decoration: none;
-    color: white;
- }
- h2>a:hover{
-    text-decoration: underline;
-    color: white;
- }
- article{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 500px;
-    /* padding: 30px; */
- }
+header > p{
+   padding-bottom: 50px;
+}
+
+a{
+   text-decoration: none;
+   color: white;
+   font-weight: bolder;
+}
+
+a:hover{
+   text-decoration: underline;
+
+}
+
+section{
+   padding-top: 10vh;
+   padding-bottom: 10vh;
+   padding-left: 30px;
+}
+
+section.normal{
+   background-color: white;
+   color: black;
+}
+
+section.imagem{
+background-color: cadetblue;
+color: white;
+}
+section.imagem > p{
+   background-color: rgba(0, 0, 0, 0.323);
+   display: inline-block;
+}
 section > p{
     text-align: left;
     font-family: 'Sriracha', cursive;
-    font-size: 3em;
+    font-size: 4.5vw;
     line-height: 2em;
 }
 #p2{
     background: black url('imagens/background001.jpg') top center no-repeat fixed;
     background-size: cover;
     height: 900px;
-    width: 1340px;
+    width: 100%;
 }
 #p5{
     background: black url('imagens/background002.jpg') top center no-repeat fixed;
