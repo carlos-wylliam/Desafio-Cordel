@@ -31,19 +31,20 @@
  article{
     margin-top: 50px;
     margin-bottom: 50px;
+    width: 500px;
     /* padding: 30px; */
  }
 section > p{
     text-align: left;
     font-family: 'Sriracha', cursive;
     font-size: 3em;
-    line-height: 3em;
+    line-height: 2em;
 }
 #p2{
     background: black url('imagens/background001.jpg') top center no-repeat fixed;
     background-size: cover;
     height: 900px;
-    width: 100%;
+    width: 1340px;
 }
 #p5{
     background: black url('imagens/background002.jpg') top center no-repeat fixed;
